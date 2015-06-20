@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+;"], "command": "append_semi_colon" }, 
+  { "keys": ["ctrl+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/AppendSemiColon/AppendSemiColon.sublime-macro"} }
+]
