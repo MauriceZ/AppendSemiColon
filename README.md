@@ -16,3 +16,7 @@ You can also automatically go to the next line at the same time like this:
 with these shorcuts:
 + <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd> on OS X
 + <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd> on Windows and Linux
+
+## Installation
+
+Install [Package Control](https://packagecontrol.io/installation) and search for AppendSemiColon
