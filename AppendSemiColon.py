@@ -1,7 +1,7 @@
 import sublime_plugin
 
 class AppendSemiColonCommand(sublime_plugin.TextCommand):
-  def run(self, edit):
+  def run(self, edit, **args):
 
     def insert_semicolon(point):
       self.view.insert(edit, point, ';')
@@ -34,3 +34,6 @@ class AppendSemiColonCommand(sublime_plugin.TextCommand):
 
       elif not is_semicolon(line_end - 1):
         insert_semicolon(line_end)
+
+    if ('enter_new_line' in args and args['enter_new_line'] == 'true'):
+      self.view.run_command("run_macro_file", {"file": "Packages/Default/Add Line.sublime-macro"}) # enter new line
