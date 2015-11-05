@@ -17,7 +17,7 @@ with these shorcuts:
 + <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd> on OS X
 + <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd> on Windows and Linux
 
-## Other Features:
+## Other Features
 + If a line already ends with a semicolon, no semicolon will be added
 + When appending a semicolon to a line ending in a comment, the semicolon will be placed before the comment
 
