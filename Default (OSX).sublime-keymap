@@ -1,4 +1,4 @@
 [
-  { "keys": ["super+;"], "command": "append_semi_colon" }, 
-  { "keys": ["super+shift+;"], "command": "append_semi_colon", "args": {"enter_new_line": "true"} }
+  { "keys": ["alt+;"], "command": "append_semi_colon" },
+  { "keys": ["alt+super+;"], "command": "append_semi_colon", "args": {"enter_new_line": "true"} }
 ]
